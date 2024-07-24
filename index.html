@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Parcijalni ispit_iTunes Search</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Martin Lojkic" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="app-container">
+      <h1>Little Poor Mediabox</h1>
+      <br />
+      <br />
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="What would you like today?"
+        />
+        <button id="search-button">GO</button>
+        <br />
+        <br />
+        <br />
+        <hr />
+      </div>
+      <div id="results-container">
+        <div id="loading-message" class="hidden">Loading artists...</div>
+        <div id="results"></div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

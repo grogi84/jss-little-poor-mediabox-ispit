@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 239, 199);
+}
+
+#app-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(95, 95, 128);
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  width: 500px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+hr {
+  border-top: 5px dotted rgb(95, 95, 128);
+}
+
+
+#loading-message {
+  display: none;
+  margin-bottom: 10px;
+  color: red
+}
+
+.hidden {
+  display: none;
+}
+
+.result-item {
+  display: inline-block;
+  width: 150px;
+  margin: 2px;
+  text-align: center;
+}
+
+.result-item img {
+  width: 150px;
+  height: 150px;
+}
+
